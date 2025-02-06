@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.controller;
+package org.ryuui.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -33,14 +33,14 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import net.pixelos.ota.R;
-import net.pixelos.ota.UpdaterReceiver;
-import net.pixelos.ota.UpdatesActivity;
-import net.pixelos.ota.misc.StringGenerator;
-import net.pixelos.ota.misc.Utils;
-import net.pixelos.ota.model.Update;
-import net.pixelos.ota.model.UpdateInfo;
-import net.pixelos.ota.model.UpdateStatus;
+import org.ryuui.updater.R;
+import org.ryuui.updater.UpdaterReceiver;
+import org.ryuui.updater.UpdatesActivity;
+import org.ryuui.updater.misc.StringGenerator;
+import org.ryuui.updater.misc.Utils;
+import org.ryuui.updater.model.Update;
+import org.ryuui.updater.model.UpdateInfo;
+import org.ryuui.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.DateFormat;

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota;
+package org.ryuui.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -23,11 +23,11 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import net.pixelos.ota.controller.UpdaterController;
-import net.pixelos.ota.misc.StringGenerator;
-import net.pixelos.ota.misc.Utils;
-import net.pixelos.ota.model.Update;
-import net.pixelos.ota.model.UpdateStatus;
+import org.ryuui.updater.controller.UpdaterController;
+import org.ryuui.updater.misc.StringGenerator;
+import org.ryuui.updater.misc.Utils;
+import org.ryuui.updater.model.Update;
+import org.ryuui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;

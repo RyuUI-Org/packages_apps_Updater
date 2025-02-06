@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.misc;
+package org.ryuui.updater.misc;
 
 public final class Constants {
 
@@ -26,8 +26,8 @@ public final class Constants {
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
     public static final String PROP_AB_DEVICE = "ro.build.ab_update";
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
-    public static final String PROP_BUILD_VERSION = "net.pixelos.version";
-    public static final String PROP_DEVICE = "ro.custom.device";
+    public static final String PROP_BUILD_VERSION = "org.ryuui.version";
+    public static final String PROP_DEVICE = "ro.ryu.device";
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
     public static final String PREF_INSTALL_PACKAGE_PATH = "install_package_path";

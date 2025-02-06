@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 PixelOS
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,17 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package org.ryuui.updater.model;
 
-package net.pixelos.ota;
+import java.io.File;
 
-import android.app.Application;
+public interface UpdateInfo extends UpdateBaseInfo {
+    UpdateStatus getStatus();
 
-import com.google.android.material.color.DynamicColors;
+    int getPersistentStatus();
 
-public class App extends Application {
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        DynamicColors.applyToActivitiesIfAvailable(this);
-    }
+    File getFile();
+
+    long getFileSize();
+
+    int getProgress();
+
+    long getEta();
+
+    long getSpeed();
+
+    int getInstallProgress();
+
+    boolean getAvailableOnline();
+
+    boolean getFinalizing();
 }

@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.misc;
+package org.ryuui.updater.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import net.pixelos.ota.R;
+import org.ryuui.updater.R;
 
 import java.text.DateFormat;
 import java.util.Date;

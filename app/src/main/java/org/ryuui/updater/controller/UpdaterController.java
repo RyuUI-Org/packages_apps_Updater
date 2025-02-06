@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.controller;
+package org.ryuui.updater.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,11 +24,11 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import net.pixelos.ota.download.DownloadClient;
-import net.pixelos.ota.misc.Utils;
-import net.pixelos.ota.model.Update;
-import net.pixelos.ota.model.UpdateInfo;
-import net.pixelos.ota.model.UpdateStatus;
+import org.ryuui.updater.download.DownloadClient;
+import org.ryuui.updater.misc.Utils;
+import org.ryuui.updater.model.Update;
+import org.ryuui.updater.model.UpdateInfo;
+import org.ryuui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

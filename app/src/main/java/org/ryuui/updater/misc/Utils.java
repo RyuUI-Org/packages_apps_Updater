@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.misc;
+package org.ryuui.updater.misc;
 
 import android.content.Context;
 import android.content.Intent;
@@ -30,11 +30,11 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import net.pixelos.ota.R;
-import net.pixelos.ota.controller.UpdaterService;
-import net.pixelos.ota.model.Update;
-import net.pixelos.ota.model.UpdateBaseInfo;
-import net.pixelos.ota.model.UpdateInfo;
+import org.ryuui.updater.R;
+import org.ryuui.updater.controller.UpdaterService;
+import org.ryuui.updater.model.Update;
+import org.ryuui.updater.model.UpdateBaseInfo;
+import org.ryuui.updater.model.UpdateInfo;
 
 import org.json.JSONArray;
 import org.json.JSONException;

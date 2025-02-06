@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota;
+package org.ryuui.updater;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -29,9 +29,9 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
-import net.pixelos.ota.download.DownloadClient;
-import net.pixelos.ota.misc.Constants;
-import net.pixelos.ota.misc.Utils;
+import org.ryuui.updater.download.DownloadClient;
+import org.ryuui.updater.misc.Constants;
+import org.ryuui.updater.misc.Utils;
 
 import org.json.JSONException;
 

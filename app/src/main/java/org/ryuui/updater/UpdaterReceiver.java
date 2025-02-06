@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota;
+package org.ryuui.updater;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -28,15 +28,15 @@ import android.os.SystemProperties;
 import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
-import net.pixelos.ota.misc.BuildInfoUtils;
-import net.pixelos.ota.misc.Constants;
-import net.pixelos.ota.misc.StringGenerator;
+import org.ryuui.updater.misc.BuildInfoUtils;
+import org.ryuui.updater.misc.Constants;
+import org.ryuui.updater.misc.StringGenerator;
 
 import java.text.DateFormat;
 
 public class UpdaterReceiver extends BroadcastReceiver {
 
-    public static final String ACTION_INSTALL_REBOOT = "net.pixelos.ota.action.INSTALL_REBOOT";
+    public static final String ACTION_INSTALL_REBOOT = "org.ryuui.updater.action.INSTALL_REBOOT";
 
     private static final String INSTALL_ERROR_NOTIFICATION_CHANNEL =
             "install_error_notification_channel";

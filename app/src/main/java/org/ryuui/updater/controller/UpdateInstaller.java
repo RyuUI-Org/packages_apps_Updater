@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota.controller;
+package org.ryuui.updater.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,11 +23,11 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import net.pixelos.ota.misc.Constants;
-import net.pixelos.ota.misc.FileUtils;
-import net.pixelos.ota.misc.Utils;
-import net.pixelos.ota.model.UpdateInfo;
-import net.pixelos.ota.model.UpdateStatus;
+import org.ryuui.updater.misc.Constants;
+import org.ryuui.updater.misc.FileUtils;
+import org.ryuui.updater.misc.Utils;
+import org.ryuui.updater.model.UpdateInfo;
+import org.ryuui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

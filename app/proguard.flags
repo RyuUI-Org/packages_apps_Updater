@@ -1,1 +1,1 @@
--keep class net.pixelos.ota.ui.FlingBehavior { *; }
+-keep class org.ryuui.updater.ui.FlingBehavior { *; }

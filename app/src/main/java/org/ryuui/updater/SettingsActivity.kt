@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2025 PixelOS
+ * 2025 RyuUI Org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota
+package org.ryuui.updater
 
 import android.os.Bundle
 import android.os.SystemProperties
@@ -27,9 +28,9 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
 import androidx.preference.SwitchPreferenceCompat
 import com.google.android.material.appbar.MaterialToolbar
-import net.pixelos.ota.controller.UpdaterController
-import net.pixelos.ota.misc.Constants
-import net.pixelos.ota.misc.Utils
+import org.ryuui.updater.controller.UpdaterController
+import org.ryuui.updater.misc.Constants
+import org.ryuui.updater.misc.Utils
 
 class SettingsActivity : AppCompatActivity(R.layout.activity_settings) {
     private val toolbar by lazy { findViewById<MaterialToolbar>(R.id.toolbar) }

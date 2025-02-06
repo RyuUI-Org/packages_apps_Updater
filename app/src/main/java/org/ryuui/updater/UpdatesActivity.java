@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.pixelos.ota;
+package org.ryuui.updater;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -65,15 +65,15 @@ import com.google.android.material.progressindicator.LinearProgressIndicator;
 
 import io.noties.markwon.Markwon;
 
-import net.pixelos.ota.controller.UpdaterController;
-import net.pixelos.ota.controller.UpdaterService;
-import net.pixelos.ota.download.DownloadClient;
-import net.pixelos.ota.misc.Constants;
-import net.pixelos.ota.misc.StringGenerator;
-import net.pixelos.ota.misc.Utils;
-import net.pixelos.ota.model.Update;
-import net.pixelos.ota.model.UpdateInfo;
-import net.pixelos.ota.model.UpdateStatus;
+import org.ryuui.updater.controller.UpdaterController;
+import org.ryuui.updater.controller.UpdaterService;
+import org.ryuui.updater.download.DownloadClient;
+import org.ryuui.updater.misc.Constants;
+import org.ryuui.updater.misc.StringGenerator;
+import org.ryuui.updater.misc.Utils;
+import org.ryuui.updater.model.Update;
+import org.ryuui.updater.model.UpdateInfo;
+import org.ryuui.updater.model.UpdateStatus;
 
 import org.json.JSONException;
 
