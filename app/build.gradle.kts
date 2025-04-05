@@ -1,7 +1,7 @@
 import java.util.Properties
-import com.clover.generatebp.GenerateBpPlugin
-import com.clover.generatebp.GenerateBpPluginExtension
-import com.clover.generatebp.models.Module
+import com.ryu.generatebp.GenerateBpPlugin
+import com.ryu.generatebp.GenerateBpPluginExtension
+import com.ryu.generatebp.models.Module
 
 plugins {
     id("com.android.application")
@@ -18,7 +18,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.clover:gradle-generatebp:+")
+        classpath("com.ryu:gradle-generatebp:+")
     }
 }
 
@@ -31,10 +31,10 @@ val keystoreProperties = Properties().apply {
 
 android {
     compileSdk = 34
-    namespace = "com.clover.updater"
+    namespace = "com.ryu.updater"
 
     defaultConfig {
-        applicationId = "com.clover.updater"
+        applicationId = "com.ryu.updater"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
